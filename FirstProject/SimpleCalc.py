@@ -7,3 +7,11 @@ print('The sum is: ', a + b)
 c,d=100,200
 print('The sum is: ', c + d)
 print(type(a))
+
+#Type can change dynammically
+a=17.6
+print(type(a))
+
+#Type can change dynammically
+a='Abhijeet'
+print(type(a))
