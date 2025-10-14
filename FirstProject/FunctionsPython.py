@@ -1,5 +1,5 @@
-def demo():
+def print_full_name():
     print('My name is Abhijeet')
     print('My last name is Kulshreshtha')
 
-demo()    
+print_full_name()    
