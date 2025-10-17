@@ -30,3 +30,6 @@ print(randomString.upper()) #Output the string in uppercase
 randomString = "Hi! This is a String Example."
 print(randomString.split("i")) #Split the string from character 'i' and output as a list
 
+print('Hello India'[-1])
+print('Hello World'[8])
+
