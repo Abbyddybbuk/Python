@@ -1,1 +1,10 @@
-This is dummy file
+My line1
+My line2
+My line3
+New line added to the file.
+
+New line added to the file.
+New line added to the file.
+New line added to the file.
+New line added to the file.
+New line added to the file.
