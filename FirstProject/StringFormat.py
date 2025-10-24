@@ -11,7 +11,7 @@ print("The result is {r:1.2f}".format(r=result))#formatted to show 2 decimal pla
 
 ########################Alternative Way to Format() Method(New in Python 3.6)#########################################################
 name="Abhijeet"
-print(f"His name is {name}")
+print(f"His name is {name}")# Output the string and format using f-string method which helps in printing variables directly inside {}
 
 #########################Formatting Numbers Using f-Strings#########################################################
 name="John Doe"
