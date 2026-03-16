@@ -14,7 +14,7 @@ class OpenAISample:
         #return f"Generated response for prompt: '{prompt}' using API key: '{self.api_key}'"
         openAI = OpenAI(api_key=self.api_key)
         openAI_response = openAI.chat.completions.create(
-            model="gpt-3.5-turbo",  
+            model="gpt-4.1-nano",  
             messages=messages)
         return openAI_response.choices[0].message.content
     
@@ -28,6 +28,15 @@ openAISample = OpenAISample(api_key)
 
 message = "What is the capital of India?"
 messages = [{"role": "user", "content": message}]
+
+response = openAISample.generate_response(messages)
+print(response)
+
+#######################################################################################################
+messages = [
+    {"role": "system", "content": "You are a Political Analyst."},
+    {"role": "user", "content": "What do you think about the current political situation in the World?"}
+]
 
 response = openAISample.generate_response(messages)
 print(response)
