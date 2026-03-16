@@ -1,0 +1,23 @@
+Python:
+1. List(MyList.py): [] -> A list is a built-in data structure in Python used to store multiple items in a single variable.
+----Ordered (the order you add items is preserved)
+----Mutable (you can change, add, or remove items after creation)
+----Allows duplicate values
+----Can store different data types (int, string, float, even other lists)
+
+2. Dictionary(MyDictionary.py): {"role": "user", "content": message}-> A dictionary (dict) is a built-in data structure that stores data in key-value pairs.
+----Key: Must be unique and immutable (string, number, tuple, etc.)
+----Value: Can be anything (int, string, list, another dict, etc.)
+----Ordered: Since Python 3.7, dictionaries maintain insertion order
+----Mutable: You can add, change, or delete items after creation
+----Extremely fast for lookups (average O(1) time)
+
+3. Tuples(MyTuples.py): ("apple", "banana", "cherry", "apple") -> A tuple is a built-in Python data structure that is very similar to a list, but with one major difference:
+----Tuples are immutable — once created, you cannot change, add, or remove elements.
+
+4. Set(MySet.py): {1, 2, 3, 4} -> A set is a built-in Python data structure that stores unique and unordered elements.
+----No duplicates allowed (automatic removal)
+----Unordered (before Python 3.6) → Since Python 3.7, sets remember insertion order (but you still shouldn't rely on order)
+----Mutable (you can add/remove elements)
+----Extremely fast for membership testing (in operator) and removing duplicates
+----Elements must be immutable (you can put numbers, strings, tuples — but not lists or dictionaries)
