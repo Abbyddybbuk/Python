@@ -33,4 +33,3 @@ url="https://api.openai.com/v1/chat/completions"
 
 response = chatCompletions1.post_request(url, headers, payload)
 print(response)
-
