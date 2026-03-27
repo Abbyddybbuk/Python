@@ -14,7 +14,7 @@ class OpenAISample:
         #return f"Generated response for prompt: '{prompt}' using API key: '{self.api_key}'"
         openAI = OpenAI(api_key=self.api_key)
         openAI_response = openAI.chat.completions.create(
-            model="gpt-4.1-nano",  
+            model="gpt-5-nano",  
             messages=messages)
         return openAI_response.choices[0].message.content
     

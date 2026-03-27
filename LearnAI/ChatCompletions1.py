@@ -28,7 +28,7 @@ else:
 chatCompletions1 = ChatCompletions1(api_key)
 
 headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-payload = {"model": "gpt-4.1-nano", "messages": [{"role": "user", "content": "Tell me a fun fact about the United Kingdom"}]  }
+payload = {"model": "gpt-4.1-nano", "messages": [{"role": "user", "content": "Tell me a fun fact about the Gwalior"}]  }
 url="https://api.openai.com/v1/chat/completions"
 
 response = chatCompletions1.post_request(url, headers, payload)
