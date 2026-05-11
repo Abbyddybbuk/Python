@@ -12,7 +12,7 @@ class OllamaSample:
     def generate_response(self, base_ul, messages):
         # Here you would typically use the OpenAI API to generate a response based on the prompt
         # For demonstration purposes, we'll return a mock response
-        #return f"Generated response for prompt: '{prompt}' using API key: '{self.api_key}'"
+        # return f"Generated response for prompt: '{prompt}' using API key: '{self.api_key}'"
         ollama = OpenAI(base_url=base_ul, api_key='ollama')
         openAI_response = ollama.chat.completions.create(
             model="llama3.2",  
